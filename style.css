@@ -1,0 +1,97 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background-image: url(gamebg.jpg);
+    background-size: cover;
+    color: white;
+}
+.headi{
+    font-size: 45px;
+    color: blanchedalmond;
+    
+}
+
+#board {
+    width: 540px;
+    height: 540px;
+    /* background-color: green; */
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 3px solid white;
+    border-radius: 25px;
+}
+
+#board div {
+    /* board = 540 x 540, divide into 3x3 tiles --> 180 x 180 per div */
+    width: 180px; 
+    height: 180px;
+    background-image: url("./monitor-icon-screen-icon-black-and-white-monitor-icon-monitor-isolated-on-white-background-free-vector.jpg");
+    background-size: cover;
+}
+
+#board div img {
+    /* all img tags inside tiles */
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.startB{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;  
+    background-color: yellow;
+    font-size: 25px;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.startB:active{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.startB:hover{
+    background-color: white;
+    border-color: greenyellow;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.stopb:hover{
+    background-color: white;
+    border-color: greenyellow;
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.stopb:active{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.stopb{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;  
+    background-color: yellow;
+    font-size: 25px;
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+}
